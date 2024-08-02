@@ -1,38 +1,69 @@
-.App {
+nav {
+  background-color: #f8f9fa;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul li  {
+  text-decoration: none;
+  color: #007bff;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul li a:hover {
+  text-decoration: underline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.mainNav{
+  color: darkcyan;
+  background-color: blanchedalmond;
+  display: inline-block;
+  font-size: large;
+  font-style: normal;
+  font-weight: bold;
+  block-size: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: left;
+}
+.kidimg{
+  text-align: center;
+  display: flex;
+
+}
+.mainul{
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+li{
+  text-align: center;
+}
+.imagekid{
+  height: 0%;
+  width: 0%;
+  
+}
+.kidbutton{
+  background-color: rgb(226, 227, 158);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.kidWeb{
+
+  
+}
+
+.background{
+  background-image: url("images/Background.png");
+  width: 100vw;
+  height: 100vh;
 }
