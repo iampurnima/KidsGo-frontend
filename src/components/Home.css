@@ -1,0 +1,142 @@
+.display{
+    text-align: center;
+    color: coral;
+    font-size: 25px;
+    margin-top: 1px;
+}
+
+.notice{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(21, 3, 43);
+    font-display: flex;
+    display: inline-block;
+    
+   
+
+    
+}
+
+
+.searchButton:hover{
+    background-color: #0056b3;
+
+}
+
+.searchForm{
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+    text-align:right;
+}
+
+.searchInput{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px soli #dddd;
+    border-radius: 30px;
+    margin-right: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.searchButton{
+    padding: 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    
+
+}
+.loginButton{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+
+}
+.loginButton:hover{
+    background-color: #0056b3;
+}
+
+/* .heroButton,.profileButton{
+    text-align: left;
+    padding: 5px 10px;
+    background-color: #0fb96f;
+    color: white;
+    margin-right: 30px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px
+} */
+.heroSection{
+    text-align: center;
+}
+
+.homeContainer{
+    color: rgb(13, 10, 10);
+    padding: 5px px;
+}
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.searchInput{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.productContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+.productName{
+    font-size: 18;
+    margin: 10px 0;
+}
+
+.productBrand,.productPrice{
+    font-size: 16px;
+    color: #555;
+}
+
+.productImage{
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-bottom: 1px;
+}
+
+.homeButton{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.Section{
+    background-image: url("/public/images/baby.png");
+    background-size: cover;
+    padding: 59px;
+    border-radius: 8px;
+
+}

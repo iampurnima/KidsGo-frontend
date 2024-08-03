@@ -28,13 +28,14 @@ nav ul li a:hover {
 .mainNav{
   color: darkcyan;
   background-color: blanchedalmond;
-  display: inline-block;
+  display: inline;
   font-size: large;
   font-style: normal;
   font-weight: bold;
   block-size: auto;
-  display: flex;
+  display: inline-flexbox;
   text-align: left;
+  
 }
 .kidimg{
   text-align: center;
@@ -49,8 +50,7 @@ li{
   text-align: center;
 }
 .imagekid{
-  height: 0%;
-  width: 0%;
+  text-align: center;
   
 }
 .kidbutton{
@@ -63,7 +63,7 @@ li{
 }
 
 .background{
-  background-image: url("images/Background.png");
+  background-color: antiquewhite;
   width: 100vw;
-  height: 100vh;
+  height: 250vh;
 }

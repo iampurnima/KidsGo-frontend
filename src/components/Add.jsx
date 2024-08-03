@@ -1,7 +1,8 @@
 import React from "react";
+import './Contact.css'
 function Contact() {
   return(
-    <form>
+    <form className="kidInfo">
       <label>
         First name:
         <input type="text"/>

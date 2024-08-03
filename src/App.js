@@ -5,12 +5,15 @@ import Home from './components/Home';
 import About from "./components/Items";
 import Contact from './components/Add';
 import Footer from "./components/Footer";
-import logo from './images/kidsgo.png';
+import Login from "./components/Login";
+import Profile from "./components/Profile";
+// import logo from './images/logo.png';
 
 function App() {
   return (
     <Router>
       <div className='background'>
+      {/* <header className='imagekid'><img src={logo} alt="Logo" style={{ height: '100px' }} /></header> */}
         <nav className='mainNav'>
           <ul className='mainul'>
             <li>
@@ -35,16 +38,16 @@ function App() {
             <li>
               <Link to="/blog">My Blog</Link>
             </li>
-            
           </ul>
         </nav>
-        <header className='imagekid'><img src={logo} alt="Logo" style={{ height: '30px' }} /></header>
         <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/footer" element={<Footer />} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/profile" element={<Profile/>} />
         </Routes>
         
         </main>
