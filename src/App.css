@@ -20,7 +20,7 @@ nav ul li  {
   text-align: center;
 }
 
-nav ul li a:hover {
+nav ul li:hover {
   text-decoration: underline;
 }
 
@@ -65,5 +65,6 @@ li{
 .background{
   background-color: antiquewhite;
   width: 100vw;
-  height: 250vh;
+  height: 50vh;
 }
+

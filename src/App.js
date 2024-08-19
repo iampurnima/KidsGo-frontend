@@ -7,6 +7,10 @@ import Contact from './components/Add';
 import Footer from "./components/Footer";
 import Login from "./components/Login";
 import Profile from "./components/Profile";
+import Blog from "./components/Blog";
+import BrowseCategories from './components/BrowseCategory';
+import SellItem from './components/Sell';
+import Cart from './components/Cart';
 // import logo from './images/logo.png';
 
 function App() {
@@ -17,16 +21,13 @@ function App() {
         <nav className='mainNav'>
           <ul className='mainul'>
             <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
+            <Link to="/categories">Browse Categories</Link>
             </li>
             <li>
               <Link to="/about">About Us</Link>
             </li>
             <li>
-              <Link to="/categorirs">Browse Categories</Link>
+            <Link to="/contact">Contact</Link>
             </li>
             <li>
               <Link to="/Sellitem">Sell Items</Link>
@@ -48,6 +49,10 @@ function App() {
           <Route path="/footer" element={<Footer />} />
           <Route path="/login" element={<Login/>} />
           <Route path="/profile" element={<Profile/>} />
+          <Route path="/blog" element={<Blog/>} />
+          <Route path="/categories" element={<BrowseCategories/>} />
+          <Route path="/sellitem" element={<SellItem/>} />
+          <Route path="/cart" element={<Cart/>} />
         </Routes>
         
         </main>

@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.loginCard {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.loginForm .formGroup {
+    margin-bottom: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.loginForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #666;
+}
+
+.loginForm input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.loginForm input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.loginForm .rememberMe {
+    display: flex;
+    align-items: center;
+}
+
+.loginForm .loginButton {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.loginForm .loginButton:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.loginOptions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.forgotPassword,
+.signupLink {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forgotPassword:hover,
+.signupLink:hover {
+    color: #0056b3;
+}
+
+.socialLogin {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.socialLogin p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.socialButton {
+    width: 48%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    color: white;
+}
+
+.socialButton.google {
+    background-color: #db4437;
+    margin-right: 4%;
+}
+
+.socialButton.facebook {
+    background-color: #3b5998;
+}
+
+.socialButton.google:hover {
+    background-color: #c33d2e;
+    transform: translateY(-3px);
+}
+
+.socialButton.facebook:hover {
+    background-color: #324a7c;
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .loginCard {
+        padding: 30px;
+    }
+
+    .loginForm .loginButton,
+    .socialButton {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .loginForm label,
+    .forgotPassword,
+    .signupLink {
+        font-size: 14px;
+    }
+}
